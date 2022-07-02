@@ -15,8 +15,8 @@ import { Icons } from "assets/icons";
 
 export const DATA_ACCOUNT = {
   id: 0,
-  avatar: Images.avatarA,
-  name: "Hieu Le Quang",
+  avatar: "Images.avatarA",
+  name: "Sebastian Ordas",
   email: "lehieuds@gmail.com",
 };
 
