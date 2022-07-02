@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "FairPay",
+    "slug": "fairpay",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "fairbill",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F9F9F9"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "dev.timistudio.expo.fairpay",
+      "versionCode": 3,
+      "permissions": ["CAMERA", "READ_CONTACTS"],
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-6106751649082059~6079157458",
+        "googleSignIn": {}
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    }
+  }
+}

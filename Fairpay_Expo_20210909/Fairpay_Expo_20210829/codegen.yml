@@ -1,0 +1,30 @@
+overwrite: true
+schema:
+  - ${EXPO_API_ENDPOINT}/v1/graphql:
+      headers:
+        Authorization: Bearer ${EXPO_USER_TOKEN}
+documents: "./sdk/**/*.graphql"
+generates:
+  sdk/index.tsx:
+    plugins:
+      - typescript
+      - typescript-operations
+      - typescript-react-apollo
+      - named-operations-object
+    config:
+      skipTypename: true
+      withHooks: true
+      withHOC: false
+      withComponent: false
+      withMutationFn: true
+      withRefetchFn: true
+      reactApolloVersion: 3
+      skipTypeNameForRoot: true
+      identifierName: NamedOperations
+      dedupeOperationSuffix: true
+      omitOperationSuffix: false
+      exportFragmentSpreadSubTypes: true
+      flattenGeneratedTypes: false
+  apollo/apollo-helpers.ts:
+    plugins:
+      - typescript-apollo-client-helpers

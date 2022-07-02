@@ -1,0 +1,35 @@
+{
+  "reactNativeComponent": {
+    "prefix": "scr",
+    "body": [
+      "import React, { memo } from 'react';",
+      "import { StyleSheet } from 'react-native';",
+      "import { TopNavigation } from '@ui-kitten/components';",
+      "",
+      "import Text from 'components/Text';",
+      "import Content from 'components/Content';",
+      "import Container from 'components/Container';",
+      "",
+      "const ${1:ComponentName} = memo(() => {",
+      "  return (",
+      "    <Container style={styles.container}>",
+      "      <TopNavigation />",
+      "      <Content>",
+      "        <Text>${1:ComponentName}</Text>",
+      "      </Content>",
+      "    </Container>",
+      "  );",
+      "});",
+      "",
+      "export default ${1:ComponentName};",
+      "",
+      "const styles = StyleSheet.create({",
+      "  container: {",
+      "	flex: 1,",
+      "  },",
+      "});",
+      ""
+    ],
+    "description": "React Native Component"
+  }
+}

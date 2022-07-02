@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "bycedric.vscode-expo",
+    "christian-kohler.path-intellisense",
+    "visualstudioexptteam.vscodeintellicode",
+    "graphql.vscode-graphql",
+    "apollographql.vscode-apollo"
+  ]
+}

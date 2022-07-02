@@ -1,0 +1,14 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.formatOnSave": true,
+  "files.exclude": {
+    ".expo*": true,
+    ".gitignore": true,
+    ".prettierrc": true,
+    ".vscode/": true,
+    "babel.config.js": true,
+    "tsconfig.json": true,
+    "webpack.config.js": true,
+    "yarn.lock": true
+  }
+}
